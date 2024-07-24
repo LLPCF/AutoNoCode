@@ -1,0 +1,30 @@
+{
+  "name": "autonocode",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "n8n start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@azure/identity": "^4.3.0",
+    "@vue/cli-service": "^5.0.8",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "lodash.set": "^4.3.2",
+    "mssql": "^11.0.0",
+    "n8n": "^1.0.5",
+    "open": "^10.1.0",
+    "openai": "^4.0.0",
+    "pdfjs-dist": "^4.3.136",
+    "semver": "^7.6.2",
+    "tedious": "^18.2.1",
+    "ws": "^8.17.1"
+  },
+  "resolutions": {
+    "@google-ai/generativelanguage": "2.5.0"
+  }
+}

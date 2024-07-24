@@ -1,0 +1,32 @@
+# Verificar e criar diretório
+$workflowDir = "C:\AutoNoCode\n8n-workflows"
+if (-not (Test-Path $workflowDir)) {
+    New-Item -ItemType Directory -Path $workflowDir
+}
+
+# Criar arquivo de workflow n8n
+$workflowFilePath = "$workflowDir\auto_git_workflow.json"
+$workflowContent = @"
+{
+    "name": "Auto Git Workflow",
+    "nodes": [
+        {
+            "parameters": {
+                "repository": "https://github.com/LLPCF/AutoNoCode.git",
+                "branch": "main",
+                "commitMessage": "Atualização automatizada"
+            },
+            "name": "Git Operations",
+            "type": "n8n-nodes-base.git",
+            "typeVersion": 1,
+            "position": [
+                450,
+                300
+            ]
+        }
+    ],
+    "connections": {}
+}
+"@
+
+Set-Content -Path $workflowFilePath -Value $workflowContent -Force

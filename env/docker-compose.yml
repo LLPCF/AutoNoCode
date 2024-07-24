@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  n8n:
+    image: n8nio/n8n:1.48.3
+    restart: always
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=${N8N_BASIC_AUTH_USER}
+      - N8N_BASIC_AUTH_PASSWORD=${N8N_BASIC_AUTH_PASSWORD}
+      - N8N_API_KEY=${N8N_API_KEY}
+      - N8N_GIT_CREDENTIALS=${N8N_GIT_CREDENTIALS}
+    volumes:
+      - ~/.n8n:/home/node/.n8n
+      - /host_mnt/c/AutoNoCode:/home/node/AutoNoCode
+      - /host_mnt/c/AutoNoCodeVideos:/home/node/AutoNoCodeVideos
+    env_file:
+      - ../env/.env
+
+  service1:
+    build:
+      context: ../service1
+      dockerfile: Dockerfile
+    image: service1_image
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      - ENV_VAR=example
+    volumes:
+      - /host_mnt/c/AutoNoCode/service1:/app
+
+  service2:
+    build:
+      context: ../service2
+      dockerfile: Dockerfile
+    image: service2_image
+    restart: always
+    ports:
+      - "8081:80"
+    environment:
+      - ENV_VAR=example
+    volumes:
+      - /host_mnt/c/AutoNoCode/service2:/app
+
+  central_service:
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    image: central_service_image
+    restart: always
+    ports:
+      - "8082:80"
+    environment:
+      - ENV_VAR=example
+    volumes:
+      - /host_mnt/c/AutoNoCode:/app
+
+  redis:
+    image: redis:latest
+    restart: always
+    ports:
+      - "6379:6379"

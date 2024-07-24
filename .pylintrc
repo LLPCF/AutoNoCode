@@ -1,0 +1,12 @@
+[MASTER]
+ignore-patterns=test_.*?py
+init-hook='import sys; sys.path.append(".")'
+
+[MESSAGE CONTROL]
+disable=C0111
+
+[FORMAT]
+max-line-length=120
+
+[TYPECHECK]
+generated-members=REQUEST,acl_users,aq_parent,"[a-zA-Z]+_set{1,2}",save,delete

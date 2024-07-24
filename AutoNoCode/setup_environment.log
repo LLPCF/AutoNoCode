@@ -1,0 +1,153 @@
+﻿**********************
+Início da transcrição do Windows PowerShell
+Hora de início: 20240701023517
+Nome de Usuário: Luiz\Luiz Lanat
+Executar como Usuário: Luiz\Luiz Lanat
+Nome da Configuração: 
+Computador: LUIZ (Microsoft Windows NT 10.0.22631.0)
+Aplicativo Host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Luiz Lanat\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+ID do Processo: 8648
+PSVersion: 5.1.22621.3810
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3810
+BuildVersion: 10.0.22621.3810
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcrição iniciada, o arquivo de saída é .\setup_environment.log
+Removing existing virtual environment if it exists...
+Existing virtual environment removed.
+Creating virtual environment...
+
+Virtual environment created successfully.
+Activating virtual environment...
+Virtual environment activated.
+Upgrading pip...
+
+pip upgraded successfully.
+Installing requirements...
+
+Requirements installed successfully.
+Running maintenance script...
+
+Maintenance script executed successfully.
+Environment setup complete.
+**********************
+Fim da transcrição do Windows PowerShell
+Hora de término: 20240701023629
+**********************
+**********************
+Início da transcrição do Windows PowerShell
+Hora de início: 20240701024727
+Nome de Usuário: Luiz\Luiz Lanat
+Executar como Usuário: Luiz\Luiz Lanat
+Nome da Configuração: 
+Computador: LUIZ (Microsoft Windows NT 10.0.22631.0)
+Aplicativo Host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Luiz Lanat\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+ID do Processo: 25376
+PSVersion: 5.1.22621.3810
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3810
+BuildVersion: 10.0.22621.3810
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcrição iniciada, o arquivo de saída é .\setup_environment.log
+Removing existing virtual environment if it exists...
+Existing virtual environment removed.
+Creating virtual environment...
+
+Virtual environment created successfully.
+Activating virtual environment...
+Virtual environment activated.
+Upgrading pip...
+    Found existing installation: pip 24.0
+    Uninstalling pip-24.0:
+      Successfully uninstalled pip-24.0
+Successfully installed pip-24.1.1
+pip upgraded successfully.
+Installing requirements...
+
+Requirements installed successfully.
+Running maintenance script...
+
+Maintenance script executed successfully.
+Environment setup complete.
+**********************
+Fim da transcrição do Windows PowerShell
+Hora de término: 20240701024840
+**********************
+**********************
+Início da transcrição do Windows PowerShell
+Hora de início: 20240701030817
+Nome de Usuário: Luiz\Luiz Lanat
+Executar como Usuário: Luiz\Luiz Lanat
+Nome da Configuração: 
+Computador: LUIZ (Microsoft Windows NT 10.0.22631.0)
+Aplicativo Host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Luiz Lanat\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+ID do Processo: 25460
+PSVersion: 5.1.22621.3810
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3810
+BuildVersion: 10.0.22621.3810
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcrição iniciada, o arquivo de saída é .\setup_environment.log
+Removing existing virtual environment if it exists...
+Existing virtual environment removed.
+Creating virtual environment...
+
+Virtual environment created successfully.
+Activating virtual environment...
+Virtual environment activated.
+Upgrading pip...
+
+pip upgraded successfully.
+Installing requirements...
+
+Failed to install requirements.
+]633;D;0]633;A]633;P;Cwd=C:\x5cAutoNoCodePS C:\AutoNoCode> ]633;P;Prompt=PS C:\x5cAutoNoCode> ]633;B
+**********************
+Início da transcrição do Windows PowerShell
+Hora de início: 20240701031201
+Nome de Usuário: Luiz\Luiz Lanat
+Executar como Usuário: Luiz\Luiz Lanat
+Nome da Configuração: 
+Computador: LUIZ (Microsoft Windows NT 10.0.22631.0)
+Aplicativo Host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Luiz Lanat\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+ID do Processo: 24920
+PSVersion: 5.1.22621.3810
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3810
+BuildVersion: 10.0.22621.3810
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcrição iniciada, o arquivo de saída é .\setup_environment.log
+Removing existing virtual environment if it exists...
+Existing virtual environment removed.
+Creating virtual environment...
+
+Virtual environment created successfully.
+Activating virtual environment...
+Virtual environment activated.
+Upgrading pip...
+  Attempting uninstall: pip
+    Found existing installation: pip 24.0
+    Uninstalling pip-24.0:
+      Successfully uninstalled pip-24.0
+Successfully installed pip-24.1.1
+pip upgraded successfully.
+Installing requirements...
+
+Failed to install requirements.
+]633;D;0]633;A]633;P;Cwd=C:\x5cAutoNoCodePS C:\AutoNoCode> ]633;P;Prompt=PS C:\x5cAutoNoCode> ]633;B

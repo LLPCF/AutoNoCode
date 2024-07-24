@@ -1,0 +1,20 @@
+{
+    "movie": {
+      "quality": "high",
+      "draft": false,
+      "scenes": [
+        {
+          "background-color": "#4392F1",
+          "elements": [
+            {
+              "type": "text",
+              "style": "003",
+              "text": "Seu texto aqui",
+              "duration": 10,
+              "start": 0
+            }
+          ]
+        }
+      ]
+    }
+  }

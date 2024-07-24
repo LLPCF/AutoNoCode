@@ -1,0 +1,23 @@
+name: Continuous Integration
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+    - name: Install dependencies
+      run: |
+        pip install poetry
+        poetry install
+    - name: Run tests
+      run: poetry run pytest
+    - name: Check types
+      run: poetry run mypy src
+    - name: Automate typing (dry run)
+      run: poetry run python scripts/automate_typing.py src --dry-run

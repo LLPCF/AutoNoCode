@@ -1,0 +1,48 @@
+# Web Frameworks
+flask
+fastapi
+uvicorn
+
+# Database
+sqlalchemy
+psycopg2
+
+# Authentication and Users
+fastapi-users
+fastapi_users_db_beanie==3.0.0
+fastapi-users-db-sqlalchemy
+
+# HTTP Requests
+requests
+
+# Testing
+pytest
+
+# Miscellaneous
+a2wsgi==1.10.6
+aiohttp==3.9.5
+aioquic==1.1.0
+astropy==6.1.1
+av==12.2.0
+brotli==1.1.0
+brotlicffi==1.1.0.0
+ca_certs_locater==1.0
+checks==0.2
+ConfigParser==7.0.0
+contextlib2==21.6.0
+curio==1.6
+cx_Oracle==8.3.0
+Cython==3.0.10
+defusedxml==0.7.1
+disco==1.40.4
+dl==0.1.0
+docutils==0.21.2
+eval_type_backport==0.2.0
+exceptiongroup==1.2.1
+filelock==3.15.4
+funcsigs==1.0.2
+gitdb_speedups==0.1.0
+google_auth_oauthlib==1.2.0
+grpcio-status==1.39.0
+moviepy
+pyright

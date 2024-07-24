@@ -1,0 +1,17 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django"
+    ],
+    "python.linting.flake8Enabled": false,
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyArgs": [
+        "--ignore-missing-imports"
+    ],
+    "python.analysis.typeCheckingMode": "strict",
+    "python.experiments.optInto": [
+        "pythonREPLSmartSend"
+    ]
+}

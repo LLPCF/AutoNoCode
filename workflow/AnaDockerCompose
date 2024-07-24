@@ -1,0 +1,189 @@
+version: '3.8'
+services:
+  # API service
+  api:
+    image: langgenius/dify-api:latest
+    restart: always
+    environment:
+      MODE: api
+      LOG_LEVEL: INFO
+      SECRET_KEY: 626a744f0b6e9059fe98e5f857d070e4
+      CONSOLE_WEB_URL: ''
+      INIT_PASSWORD: ''
+      CONSOLE_API_URL: ''
+      SERVICE_API_URL: ''
+      APP_WEB_URL: ''
+      FILES_URL: ''
+      MIGRATION_ENABLED: 'true'
+      DB_USERNAME: postgres
+      DB_PASSWORD: Th8AXMKICR3tvsZP62rGd1Bbc1L01oZW
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_DATABASE: dify
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      REDIS_USERNAME: ''
+      REDIS_PASSWORD: Th8AXMKICR3tvsZP62rGd1Bbc1L01oZW
+      REDIS_USE_SSL: 'false'
+      REDIS_DB: 0
+      CELERY_BROKER_URL: redis://:Th8AXMKICR3tvsZP62rGd1Bbc1L01oZW@redis:6379/1
+      WEB_API_CORS_ALLOW_ORIGINS: '*'
+      CONSOLE_CORS_ALLOW_ORIGINS: '*'
+      STORAGE_TYPE: local
+      STORAGE_LOCAL_PATH: storage
+      S3_ENDPOINT: 'https://s3.flowinx.com'
+      S3_BUCKET_NAME: 'dify'
+      S3_ACCESS_KEY: 'hISo33CzEOVHyoinSYup'
+      S3_SECRET_KEY: 'pGYNoLlpVsoh0NfJYgw1cqSa9eB5tJCAmA5jEoY9'
+      S3_REGION: 'us-east-1'
+      VECTOR_STORE: weaviate
+      WEAVIATE_ENDPOINT: http://weaviate:8080
+      WEAVIATE_API_KEY: Th8AXMKICR3tvsZP62rGd1Bbc1L01oZW
+      QDRANT_URL: http://qdrant:6333
+      QDRANT_API_KEY: Th8AXMKICR3tvsZP62rGd1Bbc1L01oZW
+      QDRANT_CLIENT_TIMEOUT: 20
+      MILVUS_HOST: 127.0.0.1
+      MILVUS_PORT: 19530
+      MILVUS_USER: root
+      MILVUS_PASSWORD: Milvus
+      MILVUS_SECURE: 'false'
+      MAIL_TYPE: ''
+      MAIL_DEFAULT_SEND_FROM: 'marcosgiufrida@gmail.com'
+      RESEND_API_KEY: ''
+      RESEND_API_URL: https://api.resend.com
+      SENTRY_DSN: ''
+      SENTRY_TRACES_SAMPLE_RATE: 1.0
+      SENTRY_PROFILES_SAMPLE_RATE: 1.0
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - ./volumes/app/storage:/app/api/storage
+    # ports:
+    #   - "5001:5001"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.dify-api.rule=Host(`dify.flowinx.com`) && PathPrefix(`/console`)" # Troque pelo seu dominio ou subdominio
+      - "traefik.http.routers.dify-api.tls.certresolver=leresolver"
+      - "traefik.http.routers.dify-api.entrypoints=web,websecure"
+      - "traefik.http.routers.dify-api.tls=true"
+      - "traefik.http.routers.dify-api.service=dify-api"
+      - "traefik.http.services.dify-api.loadbalancer.server.port=5001"
+      - "traefik.docker.network=portainer_default"
+
+  worker:
+    image: langgenius/dify-api:latest
+    restart: always
+    environment:
+      MODE: worker
+      LOG_LEVEL: INFO
+      SECRET_KEY: 626a744f0b6e9059fe98e5f857d070e4
+      DB_USERNAME: postgres
+      DB_PASSWORD: Th8AXMKICR3tvsZP62rGd1Bbc1L01oZW
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_DATABASE: dify
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      REDIS_USERNAME: ''
+      REDIS_PASSWORD: Th8AXMKICR3tvsZP62rGd1Bbc1L01oZW
+      REDIS_DB: 0
+      REDIS_USE_SSL: 'false'
+      CELERY_BROKER_URL: redis://:Th8AXMKICR3tvsZP62rGd1Bbc1L01oZW@redis:6379/1
+      STORAGE_TYPE: local
+      STORAGE_LOCAL_PATH: storage
+      VECTOR_STORE: weaviate
+      WEAVIATE_ENDPOINT: http://weaviate:8080
+      WEAVIATE_API_KEY: Th8AXMKICR3tvsZP62rGd1Bbc1L01oZW
+      QDRANT_URL: http://qdrant:6333
+      QDRANT_API_KEY: Th8AXMKICR3tvsZP62rGd1Bbc1L01oZW
+      QDRANT_CLIENT_TIMEOUT: 20
+      MILVUS_HOST: 127.0.0.1
+      MILVUS_PORT: 19530
+      MILVUS_USER: root
+      MILVUS_PASSWORD: Milvus
+      MILVUS_SECURE: 'false'
+      MAIL_TYPE: ''
+      MAIL_DEFAULT_SEND_FROM: 'marcosgiufrida@gmail.com'
+      RESEND_API_KEY: ''
+      RESEND_API_URL: https://api.resend.com
+    depends_on:
+      - db
+      - redis
+    volumes:
+      - ./volumes/app/storage:/app/api/storage
+
+  web:
+    image: langgenius/dify-web:latest
+    restart: always
+    environment:
+      EDITION: SELF_HOSTED
+      CONSOLE_API_URL: ''
+      APP_API_URL: 'https://dify.flowinx.com' # Troque pelo seu dominio ou subdominio
+      SENTRY_DSN: ''
+    # ports:
+    #   - "3000:3000"
+    labels:
+      - "traefik.enable=true"
+      # SSL
+      - "traefik.http.routers.dify.rule=Host(`dify.flowinx.com`)" # Troque pelo seu dominio ou subdominio
+      - "traefik.http.routers.dify.tls.certresolver=leresolver"
+      - "traefik.http.routers.dify.entrypoints=web,websecure"
+      - "traefik.http.routers.dify.tls=true"
+      - "traefik.http.routers.dify.service=dify"
+      - "traefik.http.services.dify.loadbalancer.server.port=3000"
+      - "traefik.docker.network=portainer_default"
+
+
+  db:
+    image: postgres:15-alpine
+    restart: always
+    environment:
+      PGUSER: postgres
+      POSTGRES_PASSWORD: Th8AXMKICR3tvsZP62rGd1Bbc1L01oZW
+      POSTGRES_DB: dify
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - ./volumes/db/data:/var/lib/postgresql/data
+    # ports:
+    #   - "5432:5432"
+    healthcheck:
+      test: [ "CMD", "pg_isready" ]
+      interval: 1s
+      timeout: 3s
+      retries: 30
+
+  redis:
+    image: redis:6-alpine
+    restart: always
+    volumes:
+      - ./volumes/redis/data:/data
+    command: redis-server --requirepass difyai123456
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+    # ports:
+    #   - "6379:6379"
+
+  weaviate:
+    image: semitechnologies/weaviate:1.19.0
+    restart: always
+    volumes:
+      - ./volumes/weaviate:/var/lib/weaviate
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'false'
+      PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
+      DEFAULT_VECTORIZER_MODULE: 'none'
+      CLUSTER_HOSTNAME: 'node1'
+      AUTHENTICATION_APIKEY_ENABLED: 'true'
+      AUTHENTICATION_APIKEY_ALLOWED_KEYS: 'Th8AXMKICR3tvsZP62rGd1Bbc1L01oZW'
+      AUTHENTICATION_APIKEY_USERS: 'hello@dify.ai'
+      AUTHORIZATION_ADMINLIST_ENABLED: 'true'
+      AUTHORIZATION_ADMINLIST_USERS: 'hello@dify.ai'
+    # ports:
+    #  - "8080:8080"
+
+networks:
+  default:
+    name: portainer_default
+    external: true

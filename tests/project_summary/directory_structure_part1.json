@@ -1,0 +1,1547 @@
+{
+    "C:/AutoNoCode\\setup_and_test.py": {
+        "imports": [
+            "os",
+            "shutil",
+            "subprocess"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\setup_environment.py": {
+        "imports": [
+            "os",
+            "subprocess"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\simple_test.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\AUTOMATIZACAO\\autoNoCode LIXO\\test.py": {
+        "imports": [
+            "os",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\AUTOMATIZACAO\\autoNoCode LIXO\\test_alternative.py": {
+        "imports": [
+            "pytest"
+        ],
+        "imports_from": [
+            "typing",
+            "_pytest.python_api",
+            "src.patch_typings"
+        ]
+    },
+    "C:/AutoNoCode\\AUTOMATIZACAO\\autoNoCode LIXO\\test_analyze_types.py": {
+        "imports": [
+            "os"
+        ],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\AUTOMATIZACAO\\autoNoCode LIXO\\test_import.py": {
+        "imports": [
+            "pytest"
+        ],
+        "imports_from": [
+            "src.patch_typings"
+        ]
+    },
+    "C:/AutoNoCode\\AUTOMATIZACAO\\autoNoCode LIXO\\test_literal.py": {
+        "imports": [],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\AUTOMATIZACAO\\autoNoCode LIXO\\test_literal_import.py": {
+        "imports": [],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\AUTOMATIZACAO\\autoNoCode LIXO\\test_main.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\AUTOMATIZACAO\\autoNoCode LIXO\\test_patch_typings.py": {
+        "imports": [
+            "logging",
+            "os",
+            "subprocess",
+            "sys",
+            "git"
+        ],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\AUTOMATIZACAO\\autoNoCode LIXO\\__init__.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\app\\app.py": {
+        "imports": [],
+        "imports_from": [
+            "flask"
+        ]
+    },
+    "C:/AutoNoCode\\backend\\app\\database.py": {
+        "imports": [],
+        "imports_from": [
+            "sqlalchemy",
+            "sqlalchemy.ext.declarative",
+            "sqlalchemy.orm"
+        ]
+    },
+    "C:/AutoNoCode\\backend\\app\\init.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\app\\main.py": {
+        "imports": [],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\backend\\app\\models.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\app\\schemas.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\app\\__init__.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\app\\controllers\\admin_controller.py": {
+        "imports": [],
+        "imports_from": [
+            "fastapi"
+        ]
+    },
+    "C:/AutoNoCode\\backend\\app\\controllers\\stats_controller.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\app\\controllers\\upload_controller.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\app\\controllers\\video_controller.py": {
+        "imports": [],
+        "imports_from": [
+            "app.database",
+            "app.services.video_service",
+            "fastapi",
+            "sqlalchemy.orm"
+        ]
+    },
+    "C:/AutoNoCode\\backend\\app\\controllers\\__init__.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\app\\services\\video_service.py": {
+        "imports": [],
+        "imports_from": [
+            "app.models",
+            "sqlalchemy.orm"
+        ]
+    },
+    "C:/AutoNoCode\\backend\\app\\services\\__init__.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\controllers\\admin_controller.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\controllers\\stats_controller.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\controllers\\upload_controller.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\controllers\\video_controller.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\controllers\\__init__.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\services\\__init__.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backend\\tests\\__init__.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backup\\automate_typing.py": {
+        "imports": [
+            "logging",
+            "os",
+            "shutil"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backup\\common_utils.py": {
+        "imports": [
+            "logging",
+            "os",
+            "shutil"
+        ],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\backup\\patch_typings.py": {
+        "imports": [
+            "logging",
+            "os",
+            "shutil"
+        ],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\backup\\__init__.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\backup\\autonocode\\patch_typings.py": {
+        "imports": [
+            "logging",
+            "os",
+            "shutil"
+        ],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\frontend\\node_modules\\flatted\\python\\flatted.py": {
+        "imports": [
+            "json"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\frontend\\node_modules\\flatted\\python\\test.py": {
+        "imports": [],
+        "imports_from": [
+            "flatted"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\update-gyp.py": {
+        "imports": [
+            "argparse",
+            "os",
+            "shutil",
+            "subprocess",
+            "tarfile",
+            "tempfile",
+            "urllib.request"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\gyp_main.py": {
+        "imports": [
+            "os",
+            "sys",
+            "subprocess",
+            "gyp"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\setup.py": {
+        "imports": [],
+        "imports_from": [
+            "os",
+            "setuptools"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\test_gyp.py": {
+        "imports": [
+            "argparse",
+            "os",
+            "platform",
+            "subprocess",
+            "sys",
+            "time",
+            "TestMac",
+            "gyp.MSVSVersion"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\common.py": {
+        "imports": [
+            "errno",
+            "filecmp",
+            "os.path",
+            "re",
+            "tempfile",
+            "sys",
+            "subprocess"
+        ],
+        "imports_from": [
+            "collections.abc"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\common_test.py": {
+        "imports": [
+            "gyp.common",
+            "unittest",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\easy_xml.py": {
+        "imports": [
+            "sys",
+            "re",
+            "os",
+            "locale"
+        ],
+        "imports_from": [
+            "functools"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\easy_xml_test.py": {
+        "imports": [
+            "gyp.easy_xml",
+            "unittest"
+        ],
+        "imports_from": [
+            "io"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\flock_tool.py": {
+        "imports": [
+            "fcntl",
+            "os",
+            "struct",
+            "subprocess",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\input.py": {
+        "imports": [
+            "ast",
+            "gyp.common",
+            "gyp.simple_copy",
+            "multiprocessing",
+            "os.path",
+            "re",
+            "shlex",
+            "signal",
+            "subprocess",
+            "sys",
+            "threading",
+            "traceback"
+        ],
+        "imports_from": [
+            "distutils.version",
+            "gyp.common",
+            "gyp.common"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\input_test.py": {
+        "imports": [
+            "gyp.input",
+            "unittest"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\mac_tool.py": {
+        "imports": [
+            "fcntl",
+            "fnmatch",
+            "glob",
+            "json",
+            "os",
+            "plistlib",
+            "re",
+            "shutil",
+            "struct",
+            "subprocess",
+            "sys",
+            "tempfile",
+            "CoreFoundation"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSNew.py": {
+        "imports": [
+            "hashlib",
+            "os",
+            "random",
+            "gyp.common"
+        ],
+        "imports_from": [
+            "operator"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSProject.py": {
+        "imports": [
+            "gyp.easy_xml"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSSettings.py": {
+        "imports": [
+            "re",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSSettings_test.py": {
+        "imports": [
+            "unittest",
+            "gyp.MSVSSettings"
+        ],
+        "imports_from": [
+            "io"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSToolFile.py": {
+        "imports": [
+            "gyp.easy_xml"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSUserFile.py": {
+        "imports": [
+            "os",
+            "re",
+            "socket",
+            "gyp.easy_xml"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSUtil.py": {
+        "imports": [
+            "copy",
+            "os"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSVersion.py": {
+        "imports": [
+            "errno",
+            "os",
+            "re",
+            "subprocess",
+            "sys",
+            "glob"
+        ],
+        "imports_from": [
+            "winreg"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\msvs_emulation.py": {
+        "imports": [
+            "collections",
+            "os",
+            "re",
+            "subprocess",
+            "sys",
+            "gyp.MSVSUtil",
+            "gyp.MSVSVersion"
+        ],
+        "imports_from": [
+            "gyp.common"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\ninja_syntax.py": {
+        "imports": [
+            "textwrap"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\simple_copy.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\win_tool.py": {
+        "imports": [
+            "os",
+            "re",
+            "shutil",
+            "subprocess",
+            "stat",
+            "string",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\xcodeproj_file.py": {
+        "imports": [
+            "gyp.common",
+            "hashlib",
+            "posixpath",
+            "re",
+            "struct",
+            "sys"
+        ],
+        "imports_from": [
+            "functools",
+            "operator"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\xcode_emulation.py": {
+        "imports": [
+            "copy",
+            "gyp.common",
+            "os",
+            "os.path",
+            "re",
+            "shlex",
+            "subprocess",
+            "sys"
+        ],
+        "imports_from": [
+            "gyp.common"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\xcode_ninja.py": {
+        "imports": [
+            "errno",
+            "gyp.generator.ninja",
+            "os",
+            "re",
+            "xml.sax.saxutils"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\xml_fix.py": {
+        "imports": [
+            "xml.dom.minidom"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\__init__.py": {
+        "imports": [
+            "copy",
+            "gyp.input",
+            "argparse",
+            "os.path",
+            "re",
+            "shlex",
+            "sys",
+            "traceback"
+        ],
+        "imports_from": [
+            "gyp.common"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\analyzer.py": {
+        "imports": [
+            "gyp.common",
+            "json",
+            "os",
+            "posixpath"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\android.py": {
+        "imports": [
+            "gyp",
+            "gyp.common",
+            "gyp.generator.make",
+            "os",
+            "re",
+            "subprocess"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\cmake.py": {
+        "imports": [
+            "multiprocessing",
+            "os",
+            "signal",
+            "subprocess",
+            "gyp.common",
+            "gyp.xcode_emulation"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\compile_commands_json.py": {
+        "imports": [
+            "gyp.common",
+            "gyp.xcode_emulation",
+            "json",
+            "os"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\dump_dependency_json.py": {
+        "imports": [
+            "os",
+            "gyp",
+            "gyp.common",
+            "gyp.msvs_emulation",
+            "json"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\eclipse.py": {
+        "imports": [
+            "os.path",
+            "subprocess",
+            "gyp",
+            "gyp.common",
+            "gyp.msvs_emulation",
+            "shlex",
+            "xml.etree.cElementTree"
+        ],
+        "imports_from": [
+            "xml.sax.saxutils"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\gypd.py": {
+        "imports": [
+            "gyp.common",
+            "pprint"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\gypsh.py": {
+        "imports": [
+            "code",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\make.py": {
+        "imports": [
+            "os",
+            "re",
+            "subprocess",
+            "gyp",
+            "gyp.common",
+            "gyp.xcode_emulation",
+            "hashlib",
+            "gyp.generator.xcode"
+        ],
+        "imports_from": [
+            "gyp.common"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\msvs.py": {
+        "imports": [
+            "ntpath",
+            "os",
+            "posixpath",
+            "re",
+            "subprocess",
+            "sys",
+            "gyp.common",
+            "gyp.easy_xml",
+            "gyp.generator.ninja",
+            "gyp.MSVSNew",
+            "gyp.MSVSProject",
+            "gyp.MSVSSettings",
+            "gyp.MSVSToolFile",
+            "gyp.MSVSUserFile",
+            "gyp.MSVSUtil",
+            "gyp.MSVSVersion"
+        ],
+        "imports_from": [
+            "collections",
+            "gyp.common",
+            "gyp.common"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\msvs_test.py": {
+        "imports": [
+            "gyp.generator.msvs",
+            "unittest"
+        ],
+        "imports_from": [
+            "io"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\ninja.py": {
+        "imports": [
+            "collections",
+            "copy",
+            "hashlib",
+            "json",
+            "multiprocessing",
+            "os.path",
+            "re",
+            "signal",
+            "subprocess",
+            "sys",
+            "gyp",
+            "gyp.common",
+            "gyp.msvs_emulation",
+            "gyp.MSVSUtil",
+            "gyp.xcode_emulation",
+            "gyp.ninja_syntax",
+            "gyp.generator.xcode",
+            "ctypes",
+            "gyp.generator.msvs"
+        ],
+        "imports_from": [
+            "io",
+            "gyp.common"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\ninja_test.py": {
+        "imports": [
+            "sys",
+            "unittest",
+            "gyp.generator.ninja"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\xcode.py": {
+        "imports": [
+            "filecmp",
+            "gyp.common",
+            "gyp.xcodeproj_file",
+            "gyp.xcode_ninja",
+            "errno",
+            "os",
+            "sys",
+            "posixpath",
+            "re",
+            "shutil",
+            "subprocess",
+            "tempfile"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\xcode_test.py": {
+        "imports": [
+            "gyp.generator.xcode",
+            "unittest",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\__init__.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\tools\\graphviz.py": {
+        "imports": [
+            "collections",
+            "json",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\tools\\pretty_gyp.py": {
+        "imports": [
+            "sys",
+            "re"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\tools\\pretty_sln.py": {
+        "imports": [
+            "os",
+            "re",
+            "sys",
+            "pretty_vcproj"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\gyp\\tools\\pretty_vcproj.py": {
+        "imports": [
+            "os",
+            "sys"
+        ],
+        "imports_from": [
+            "xml.dom.minidom",
+            "xml.dom.minidom"
+        ]
+    },
+    "C:/AutoNoCode\\n8n-project\\node_modules\\node-gyp\\test\\fixtures\\test-charmap.py": {
+        "imports": [
+            "sys",
+            "locale"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\update-gyp.py": {
+        "imports": [
+            "argparse",
+            "os",
+            "shutil",
+            "subprocess",
+            "tarfile",
+            "tempfile",
+            "urllib.request"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\gyp_main.py": {
+        "imports": [
+            "os",
+            "sys",
+            "subprocess",
+            "gyp"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\setup.py": {
+        "imports": [],
+        "imports_from": [
+            "os",
+            "setuptools"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\test_gyp.py": {
+        "imports": [
+            "argparse",
+            "os",
+            "platform",
+            "subprocess",
+            "sys",
+            "time",
+            "TestMac",
+            "gyp.MSVSVersion"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\common.py": {
+        "imports": [
+            "errno",
+            "filecmp",
+            "os.path",
+            "re",
+            "tempfile",
+            "sys",
+            "subprocess"
+        ],
+        "imports_from": [
+            "collections.abc"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\common_test.py": {
+        "imports": [
+            "gyp.common",
+            "unittest",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\easy_xml.py": {
+        "imports": [
+            "sys",
+            "re",
+            "os",
+            "locale"
+        ],
+        "imports_from": [
+            "functools"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\easy_xml_test.py": {
+        "imports": [
+            "gyp.easy_xml",
+            "unittest"
+        ],
+        "imports_from": [
+            "io"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\flock_tool.py": {
+        "imports": [
+            "fcntl",
+            "os",
+            "struct",
+            "subprocess",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\input.py": {
+        "imports": [
+            "ast",
+            "gyp.common",
+            "gyp.simple_copy",
+            "multiprocessing",
+            "os.path",
+            "re",
+            "shlex",
+            "signal",
+            "subprocess",
+            "sys",
+            "threading",
+            "traceback"
+        ],
+        "imports_from": [
+            "distutils.version",
+            "gyp.common",
+            "gyp.common"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\input_test.py": {
+        "imports": [
+            "gyp.input",
+            "unittest"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\mac_tool.py": {
+        "imports": [
+            "fcntl",
+            "fnmatch",
+            "glob",
+            "json",
+            "os",
+            "plistlib",
+            "re",
+            "shutil",
+            "struct",
+            "subprocess",
+            "sys",
+            "tempfile",
+            "CoreFoundation"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSNew.py": {
+        "imports": [
+            "hashlib",
+            "os",
+            "random",
+            "gyp.common"
+        ],
+        "imports_from": [
+            "operator"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSProject.py": {
+        "imports": [
+            "gyp.easy_xml"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSSettings.py": {
+        "imports": [
+            "re",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSSettings_test.py": {
+        "imports": [
+            "unittest",
+            "gyp.MSVSSettings"
+        ],
+        "imports_from": [
+            "io"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSToolFile.py": {
+        "imports": [
+            "gyp.easy_xml"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSUserFile.py": {
+        "imports": [
+            "os",
+            "re",
+            "socket",
+            "gyp.easy_xml"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSUtil.py": {
+        "imports": [
+            "copy",
+            "os"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\MSVSVersion.py": {
+        "imports": [
+            "errno",
+            "os",
+            "re",
+            "subprocess",
+            "sys",
+            "glob"
+        ],
+        "imports_from": [
+            "winreg"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\msvs_emulation.py": {
+        "imports": [
+            "collections",
+            "os",
+            "re",
+            "subprocess",
+            "sys",
+            "gyp.MSVSUtil",
+            "gyp.MSVSVersion"
+        ],
+        "imports_from": [
+            "gyp.common"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\ninja_syntax.py": {
+        "imports": [
+            "textwrap"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\simple_copy.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\win_tool.py": {
+        "imports": [
+            "os",
+            "re",
+            "shutil",
+            "subprocess",
+            "stat",
+            "string",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\xcodeproj_file.py": {
+        "imports": [
+            "gyp.common",
+            "hashlib",
+            "posixpath",
+            "re",
+            "struct",
+            "sys"
+        ],
+        "imports_from": [
+            "functools",
+            "operator"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\xcode_emulation.py": {
+        "imports": [
+            "copy",
+            "gyp.common",
+            "os",
+            "os.path",
+            "re",
+            "shlex",
+            "subprocess",
+            "sys"
+        ],
+        "imports_from": [
+            "gyp.common"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\xcode_ninja.py": {
+        "imports": [
+            "errno",
+            "gyp.generator.ninja",
+            "os",
+            "re",
+            "xml.sax.saxutils"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\xml_fix.py": {
+        "imports": [
+            "xml.dom.minidom"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\__init__.py": {
+        "imports": [
+            "copy",
+            "gyp.input",
+            "argparse",
+            "os.path",
+            "re",
+            "shlex",
+            "sys",
+            "traceback"
+        ],
+        "imports_from": [
+            "gyp.common"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\analyzer.py": {
+        "imports": [
+            "gyp.common",
+            "json",
+            "os",
+            "posixpath"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\android.py": {
+        "imports": [
+            "gyp",
+            "gyp.common",
+            "gyp.generator.make",
+            "os",
+            "re",
+            "subprocess"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\cmake.py": {
+        "imports": [
+            "multiprocessing",
+            "os",
+            "signal",
+            "subprocess",
+            "gyp.common",
+            "gyp.xcode_emulation"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\compile_commands_json.py": {
+        "imports": [
+            "gyp.common",
+            "gyp.xcode_emulation",
+            "json",
+            "os"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\dump_dependency_json.py": {
+        "imports": [
+            "os",
+            "gyp",
+            "gyp.common",
+            "gyp.msvs_emulation",
+            "json"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\eclipse.py": {
+        "imports": [
+            "os.path",
+            "subprocess",
+            "gyp",
+            "gyp.common",
+            "gyp.msvs_emulation",
+            "shlex",
+            "xml.etree.cElementTree"
+        ],
+        "imports_from": [
+            "xml.sax.saxutils"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\gypd.py": {
+        "imports": [
+            "gyp.common",
+            "pprint"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\gypsh.py": {
+        "imports": [
+            "code",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\make.py": {
+        "imports": [
+            "os",
+            "re",
+            "subprocess",
+            "gyp",
+            "gyp.common",
+            "gyp.xcode_emulation",
+            "hashlib",
+            "gyp.generator.xcode"
+        ],
+        "imports_from": [
+            "gyp.common"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\msvs.py": {
+        "imports": [
+            "ntpath",
+            "os",
+            "posixpath",
+            "re",
+            "subprocess",
+            "sys",
+            "gyp.common",
+            "gyp.easy_xml",
+            "gyp.generator.ninja",
+            "gyp.MSVSNew",
+            "gyp.MSVSProject",
+            "gyp.MSVSSettings",
+            "gyp.MSVSToolFile",
+            "gyp.MSVSUserFile",
+            "gyp.MSVSUtil",
+            "gyp.MSVSVersion"
+        ],
+        "imports_from": [
+            "collections",
+            "gyp.common",
+            "gyp.common"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\msvs_test.py": {
+        "imports": [
+            "gyp.generator.msvs",
+            "unittest"
+        ],
+        "imports_from": [
+            "io"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\ninja.py": {
+        "imports": [
+            "collections",
+            "copy",
+            "hashlib",
+            "json",
+            "multiprocessing",
+            "os.path",
+            "re",
+            "signal",
+            "subprocess",
+            "sys",
+            "gyp",
+            "gyp.common",
+            "gyp.msvs_emulation",
+            "gyp.MSVSUtil",
+            "gyp.xcode_emulation",
+            "gyp.ninja_syntax",
+            "gyp.generator.xcode",
+            "ctypes",
+            "gyp.generator.msvs"
+        ],
+        "imports_from": [
+            "io",
+            "gyp.common"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\ninja_test.py": {
+        "imports": [
+            "sys",
+            "unittest",
+            "gyp.generator.ninja"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\xcode.py": {
+        "imports": [
+            "filecmp",
+            "gyp.common",
+            "gyp.xcodeproj_file",
+            "gyp.xcode_ninja",
+            "errno",
+            "os",
+            "sys",
+            "posixpath",
+            "re",
+            "shutil",
+            "subprocess",
+            "tempfile"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\xcode_test.py": {
+        "imports": [
+            "gyp.generator.xcode",
+            "unittest",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\pylib\\gyp\\generator\\__init__.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\tools\\graphviz.py": {
+        "imports": [
+            "collections",
+            "json",
+            "sys"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\tools\\pretty_gyp.py": {
+        "imports": [
+            "sys",
+            "re"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\tools\\pretty_sln.py": {
+        "imports": [
+            "os",
+            "re",
+            "sys",
+            "pretty_vcproj"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\gyp\\tools\\pretty_vcproj.py": {
+        "imports": [
+            "os",
+            "sys"
+        ],
+        "imports_from": [
+            "xml.dom.minidom",
+            "xml.dom.minidom"
+        ]
+    },
+    "C:/AutoNoCode\\node_modules\\node-gyp\\test\\fixtures\\test-charmap.py": {
+        "imports": [
+            "sys",
+            "locale"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\scripts\\add_docstrings.py": {
+        "imports": [
+            "os",
+            "re"
+        ],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\scripts\\analyze_types.py": {
+        "imports": [
+            "os"
+        ],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\scripts\\automate_typing.py": {
+        "imports": [
+            "logging",
+            "os",
+            "subprocess",
+            "sys",
+            "git"
+        ],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\scripts\\auto_fix.py": {
+        "imports": [
+            "os",
+            "subprocess"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\scripts\\auto_git_commit_script.py": {
+        "imports": [
+            "os",
+            "subprocess",
+            "git",
+            "git",
+            "git"
+        ],
+        "imports_from": [
+            "dotenv",
+            "datetime"
+        ]
+    },
+    "C:/AutoNoCode\\scripts\\auto_type_annotate.py": {
+        "imports": [
+            "logging",
+            "logging",
+            "logging",
+            "logging",
+            "logging",
+            "logging",
+            "logging",
+            "logging",
+            "logging",
+            "os",
+            "re"
+        ],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\scripts\\check_int_files.py": {
+        "imports": [
+            "os"
+        ],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\scripts\\check_project_structure.py": {
+        "imports": [
+            "os",
+            "subprocess",
+            "git",
+            "git",
+            "git"
+        ],
+        "imports_from": [
+            "dotenv",
+            "datetime"
+        ]
+    },
+    "C:/AutoNoCode\\scripts\\check_structure.py": {
+        "imports": [
+            "os"
+        ],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\scripts\\check_structure_and_imports.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\scripts\\fix_errors.py": {
+        "imports": [
+            "os",
+            "re"
+        ],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\scripts\\generate_project_structure.py": {
+        "imports": [
+            "os",
+            "gzip"
+        ],
+        "imports_from": [
+            "collections"
+        ]
+    },
+    "C:/AutoNoCode\\scripts\\instrument_collect.py": {
+        "imports": [],
+        "imports_from": [
+            "pyannotate_runtime",
+            "src"
+        ]
+    },
+    "C:/AutoNoCode\\scripts\\maintenance.py": {
+        "imports": [
+            "subprocess"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\scripts\\npm_check.py": {
+        "imports": [
+            "logging",
+            "logging",
+            "logging",
+            "os",
+            "subprocess"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\scripts\\npm_check_simple.py": {
+        "imports": [
+            "logging",
+            "logging",
+            "logging",
+            "logging",
+            "logging",
+            "logging",
+            "logging",
+            "logging",
+            "logging",
+            "os",
+            "subprocess"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\scripts\\video_creation.py": {
+        "imports": [
+            "logging",
+            "sys",
+            "moviepy.editor",
+            "google_auth_oauthlib.flow",
+            "google_auth_oauthlib",
+            "googleapiclient.discovery",
+            "googleapiclient.errors",
+            "googleapiclient.http"
+        ],
+        "imports_from": [
+            "moviepy.editor",
+            "moviepy.editor"
+        ]
+    },
+    "C:/AutoNoCode\\scripts\\video_upload.py": {
+        "imports": [
+            "logging",
+            "os",
+            "google_auth_oauthlib.flow",
+            "googleapiclient.discovery",
+            "googleapiclient.errors"
+        ],
+        "imports_from": [
+            "typing",
+            "googleapiclient.http",
+            "google_auth_oauthlib.flow",
+            "googleapiclient.discovery",
+            "googleapiclient.errors",
+            "googleapiclient.http"
+        ]
+    },
+    "C:/AutoNoCode\\src\\automate_typing.py": {
+        "imports": [
+            "logging"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\src\\common_utils.py": {
+        "imports": [
+            "logging",
+            "os",
+            "shutil"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\src\\patch_typings.py": {
+        "imports": [
+            "logging",
+            "os",
+            "shutil"
+        ],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\src\\__init__.py": {
+        "imports": [],
+        "imports_from": []
+    },
+    "C:/AutoNoCode\\src\\autonocode\\patch_typings.py": {
+        "imports": [
+            "logging",
+            "os",
+            "shutil"
+        ],
+        "imports_from": [
+            "typing"
+        ]
+    },
+    "C:/AutoNoCode\\tests\\project_summary\\generate_summary.py": {
+        "imports": [
+            "json",
+            "os",
+            "ast",
+            "logging"
+        ],
+        "imports_from": []
+    }
+}

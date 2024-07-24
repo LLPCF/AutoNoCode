@@ -1,0 +1,25 @@
+# Path: C:\AutoNoCode\env\docker-compose.yml
+# Propósito: Configuração do Docker Compose para rodar o n8n
+# Data de criação: 20/07/2024
+# Informações adicionais: Esta configuração inicializa o contêiner n8n com autenticação básica e mapeamento de volumes
+
+version: '3.8'
+
+services:
+  n8n:
+    image: n8nio/n8n:1.48.3
+    restart: always
+    ports:
+      - "${N8N_PORT}:5678"
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=${N8N_BASIC_AUTH_USER}
+      - N8N_BASIC_AUTH_PASSWORD=${N8N_BASIC_AUTH_PASSWORD}
+      - N8N_API_KEY=${N8N_API_KEY}
+      - N8N_GIT_CREDENTIALS=${N8N_GIT_CREDENTIALS}
+    volumes:
+      - ~/.n8n:/home/node/.n8n
+      - /host_mnt/c/AutoNoCode:/home/node/AutoNoCode
+      - /host_mnt/c/AutoNoCodeVideos:/home/node/AutoNoCodeVideos
+    env_file:
+      - ../env/.env

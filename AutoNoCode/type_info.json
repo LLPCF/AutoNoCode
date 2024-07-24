@@ -1,0 +1,38 @@
+[
+    {
+        "path": "backend/app/main.py",
+        "func_name": "some_function",
+        "line": 10,
+        "type_comments": [
+            {
+                "args": [
+                    {
+                        "name": "param1",
+                        "type": "int"
+                    },
+                    {
+                        "name": "param2",
+                        "type": "str"
+                    }
+                ],
+                "return": "None"
+            }
+        ]
+    },
+    {
+        "path": "scripts/script1.py",
+        "func_name": "another_function",
+        "line": 20,
+        "type_comments": [
+            {
+                "args": [
+                    {
+                        "name": "arg1",
+                        "type": "float"
+                    }
+                ],
+                "return": "str"
+            }
+        ]
+    }
+]
